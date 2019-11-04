@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
+        <p>herokuのデプロイテスト</p>
         <hr color="#c0c0c0">
         @if (!is_null($headline))
             <div class="row">
@@ -16,6 +17,7 @@
                                 </div>
                                 <div class="title p-2">
                                     <h1>{{ str_limit($headline->title, 70) }}</h1>
+                                        <
                                 </div>
                             </div>
                         </div>
